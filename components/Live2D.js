@@ -18,7 +18,7 @@ export default function Live2D() {
     if (showPet && !isMobile()) {
       Promise.all([
         loadExternalResource(
-          'https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js',
+          '',
           'js'
         )
       ]).then(e => {
@@ -47,8 +47,8 @@ export default function Live2D() {
   return (
     <canvas
       id='live2d'
-      width='280'
-      height='250'
+      width='28'
+      height='25'
       onClick={handleClick}
       className='cursor-grab'
       onMouseDown={e => e.target.classList.add('cursor-grabbing')}
