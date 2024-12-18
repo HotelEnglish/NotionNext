@@ -1,86 +1,91 @@
 const CONFIG = {
-
-  LANDING_HEADER_BUTTON_1_TITLE: 'Github开源',
-  LANDING_HEADER_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
-
-  LANDING_HEADER_BUTTON_2_TITLE: '作者博客',
-  LANDING_HEADER_BUTTON_2_URL: 'https://blog.tangly1024.com/',
-
+  LANDING_HEADER_BUTTON_1_TITLE: '了解智意达',
+  LANDING_HEADER_BUTTON_1_URL: '#', // 您可以指定一个具体的URL
+  LANDING_HEADER_BUTTON_2_TITLE: '联系我们',
+  LANDING_HEADER_BUTTON_2_URL: '#', // 您可以指定一个具体的URL
   // 首页大图英雄板块
-  LANDING_HERO_TITLE_1: 'NotionNext',
-  LANDING_HERO_P_1: '快速搭建独立站、轻松放大品牌价值！',
+  LANDING_HERO_TITLE_1: '智意达 | 让一部分酒店人先用上AI',
+  LANDING_HERO_P_1: '精选应用：中瑞智能助理、自贸港政策专家、酒店智能助理、收益管理专家。',
   LANDING_HERO_BUTTON_1_TEXT: '开始体验',
-  LANDING_HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
+  LANDING_HERO_BUTTON_1_LINK: '#', // 您可以指定一个具体的URL
   LANDING_HERO_BUTTON_2_TEXT: '了解更多',
-  LANDING_HERO_BUTTON_2_LINK: 'https://docs.tangly1024.com/about',
+  LANDING_HERO_BUTTON_2_LINK: '#', // 您可以指定一个具体的URL
   LANDING_HERO_VIDEO_IMAGE: '/images/home.png',
-  //   HERO_VIDEO_URL: '/videos/video.mp4',
   LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
   LANDING_HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
-
   // 特性介绍
-  LANDING_FEATURES_HEADER_1: '探索的过程',
-  LANDING_FEATURES_HEADER_1_P: "如何搭建自己的门户网站，塑造一个品牌展示中心？<br/>曾经，它是系统<strong class='font-bold text-red-500'>繁重</strong>的Wordpress、是操作<strong class='font-bold  text-red-500'>复杂</strong>的Hexo、是<strong class='font-bold text-red-500'>昂贵</strong>且<strong class='font-bold text-red-500'>不稳定</strong>的技术团队;<br/>现在，只要一个Notion笔记就够了",
-  LANDING_FEATURES_HEADER_2: 'Notion+NextJs组合方案',
-  LANDING_FEATURES_HEADER_2_P: '在Notion笔记中管理文章数据，NextJs将其渲染成网页排版，通过Vercel等第三方平台将您的网站发布到全球。',
-  LANDING_FEATURES_CARD_1_TITLE: '简单快速的系统',
-  LANDING_FEATURES_CARD_1_P: '在Notion中写下一篇文章，内容立刻在您的网站首页中呈现给互联网',
-  LANDING_FEATURES_CARD_2_TITLE: '高效传播的媒介',
-  LANDING_FEATURES_CARD_2_P: '优秀的SEO、快速的响应速度，让您的产品和宣传触达到更多的受众',
-  LANDING_FEATURES_CARD_3_TITLE: '人性化的定制工具',
-  LANDING_FEATURES_CARD_3_P: '多款主题供您挑选，可以搭建各种不同风格和作用的网站，更多的主题正在陆续加入中。',
-
-  // 特性介绍2
-  LANDING_FEATURES_BLOCK_HEADER: '解决方案',
-  LANDING_FEATURES_BLOCK_P: '人人自媒体的时代，一个网站将帮您链接更多的人，带给你无限的机会和客户。<br/>您还在等什么呢？',
-  LANDING_FEATURES_BLOCK_1_TITLE: '用网站来展示品牌',
-  LANDING_FEATURES_BLOCK_1_P: '比起线下渠道、一个公开域名和网站更有说服力',
-  LANDING_FEATURES_BLOCK_2_TITLE: 'SEO带来更多流量',
-  LANDING_FEATURES_BLOCK_2_P: '借助搜索引擎，精准定位您的受众',
-  LANDING_FEATURES_BLOCK_3_TITLE: '网站的性能很重要',
-  LANDING_FEATURES_BLOCK_3_P: '更快的响应，更好的用户体验',
-  LANDING_FEATURES_BLOCK_4_TITLE: '打造您的个人品牌',
-  LANDING_FEATURES_BLOCK_4_P: '继马斯克、乔布斯之后，您将是下一个传奇',
-  LANDING_FEATURES_BLOCK_5_TITLE: '写作表达是核心技能',
-  LANDING_FEATURES_BLOCK_5_P: '比起只阅读输入，更重要的是反思和输出',
-  LANDING_FEATURES_BLOCK_6_TITLE: '开始写博客吧',
-  LANDING_FEATURES_BLOCK_6_P: 'NotionNext，助您轻松开始写作',
-
+  LANDING_FEATURES_HEADER_1: '智能在线客服',
+  LANDING_FEATURES_HEADER_1_P: "利用先进的NLP技术，实现与用户的自然对话，提供即时、准确的客户服务。",
+  LANDING_FEATURES_CARD_1_TITLE: '自然对话能力',
+  LANDING_FEATURES_CARD_1_P: '通过NLP技术，系统能够理解和解析用户的自然语言输入，实现与用户的有效沟通。',
+  LANDING_FEATURES_CARD_2_TITLE: '实时响应',
+  LANDING_FEATURES_CARD_2_P: '快速处理用户请求，保证即时响应，提升用户体验。',
+  LANDING_FEATURES_CARD_3_TITLE: '准确性',
+  LANDING_FEATURES_CARD_3_P: '高精度的自然语言理解，确保信息传递的准确性。',
+  LANDING_FEATURES_CARD_4_TITLE: '多轮对话支持',
+  LANDING_FEATURES_CARD_4_P: '支持连续对话，保持上下文连贯，提供更好的交互体验。',
+  LANDING_FEATURES_CARD_5_TITLE: '情感分析',
+  LANDING_FEATURES_CARD_5_P: '识别用户情感，调整回应策略，增强服务的人性化。',
+  LANDING_FEATURES_CARD_6_TITLE: '个性化服务',
+  LANDING_FEATURES_CARD_6_P: '基于用户历史数据，提供定制化的建议和服务。',
+  LANDING_FEATURES_CARD_7_TITLE: '知识库管理',
+  LANDING_FEATURES_CARD_7_P: '维护丰富的知识库，确保问题解答的专业性和全面性。',
+  LANDING_FEATURES_CARD_8_TITLE: '可扩展性',
+  LANDING_FEATURES_CARD_8_P: '系统设计灵活，易于集成第三方服务，满足不同业务需求。',
+  LANDING_FEATURES_HEADER_2: '酒店收益管理',
+  LANDING_FEATURES_HEADER_2_P: '通过深度学习算法对运营数据进行深度分析，帮助酒店洞察业务趋势，优化决策。',
+  LANDING_FEATURES_BLOCK_1_TITLE: '历史业绩',
+  LANDING_FEATURES_BLOCK_1_P: '分析入住率、ADR（平均每日房价）、RevPAR（每间可用客房收入）等关键数据，为决策提供依据。',
+  LANDING_FEATURES_BLOCK_2_TITLE: '市场动态',
+  LANDING_FEATURES_BLOCK_2_P: '跟踪旅游季节性、节假日、事件信息，预测市场需求变化。',
+  LANDING_FEATURES_BLOCK_3_TITLE: '竞争数据',
+  LANDING_FEATURES_BLOCK_3_P: '提供竞争对手的价格和市场占有率信息，制定竞争策略。',
+  LANDING_FEATURES_BLOCK_4_TITLE: '客户信息',
+  LANDING_FEATURES_BLOCK_4_P: '分享客户统计、习惯和偏好，提升客户满意度和忠诚度。',
+  LANDING_FEATURES_BLOCK_5_TITLE: '渠道效率',
+  LANDING_FEATURES_BLOCK_5_P: '报告各销售渠道的预订和反馈数据，评估渠道效果。',
+  LANDING_FEATURES_BLOCK_6_TITLE: '价格弹性',
+  LANDING_FEATURES_BLOCK_6_P: '研究需求对价格变化的反应，优化定价策略。',
+  LANDING_FEATURES_BLOCK_7_TITLE: '库存状况',
+  LANDING_FEATURES_BLOCK_7_P: '更新房间类型、可用性和预订情况，合理安排资源。',
+  LANDING_FEATURES_BLOCK_8_TITLE: '动态定价',
+  LANDING_FEATURES_BLOCK_8_P: '根据市场和竞争数据实时调整房价，最大化收益。',
+  LANDING_FEATURES_BLOCK_9_TITLE: '直销强化',
+  LANDING_FEATURES_BLOCK_9_P: '通过会员奖励提升直销渠道预订，减少依赖第三方平台。',
+  LANDING_FEATURES_BLOCK_10_TITLE: 'OTA合作优化',
+  LANDING_FEATURES_BLOCK_10_P: '确保与OTA的价格一致性和佣金合理，维持良好的合作关系。',
+  LANDING_FEATURES_BLOCK_11_TITLE: '个性化营销',
+  LANDING_FEATURES_BLOCK_11_P: '利用客户数据提高营销个性化和转化率，增加客户粘性。',
+  LANDING_FEATURES_BLOCK_12_TITLE: '数据驱动决策',
+  LANDING_FEATURES_BLOCK_12_P: '运用AI工具持续监控市场和客户行为，做出更明智的商业决策。',
   // 感言
-  LANDING_TESTIMONIALS_HEADER: '已搭建超7000个网站、总浏览量突破100,000,000+',
-  LANDING_TESTIMONIALS_P: '网站内容涵盖地产、教育、建筑、医学、机械、IT、电子、软件、自媒体、数位游民、短视频、电商、学生、摄影爱好者、旅行爱好者等等各行各业',
-
+  LANDING_TESTIMONIALS_HEADER: '「智意达 为我们节省了数百小时的工作时间，并让我们获得了从未想到过的洞察力"」。',
+  LANDING_TESTIMONIALS_P: '——安妮-斯坦纳, 绿色足迹首席执行官',
   LANDING_TESTIMONIALS_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
-  LANDING_TESTIMONIALS_NICKNAME: 'Ryan_G',
-  LANDING_TESTIMONIALS_ID: 'Ryan`Log 站长',
-  LANDING_TESTIMONIALS_SOCIAL_NAME: '@Gaoran',
-  LANDING_TESTIMONIALS_SOCIAL_URL: 'https://blog.gaoran.xyz/',
-  LANDING_TESTIMONIALS_WORD: '“ 感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ “',
-
+  LANDING_TESTIMONIALS_NICKNAME: '安妮-斯坦纳',
+  LANDING_TESTIMONIALS_ID: '绿色足迹首席执行官',
+  LANDING_TESTIMONIALS_SOCIAL_NAME: '@GreenFootprintCEO',
+  LANDING_TESTIMONIALS_SOCIAL_URL: '#', // 您可以指定一个具体的URL
+  LANDING_TESTIMONIALS_WORD: '「智意达 为我们节省了数百小时的工作时间，并让我们获得了从未想到过的洞察力"」。',
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
-  LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.tangly1024.com', // 重定向网站地址
-
+  LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || '#', // 重定向网站地址
   LANDING_PRICING_TITLE: '价格表',
-  LANDING_PRICING_P: 'NotionNext开源免费，此处仅演示订阅付费功能！请勿购买！',
-
-  LANDING_PRICING_1_TITLE: '个人版',
+  LANDING_PRICING_P: '智意达提供了多种套餐以满足不同用户的需求。',
+  LANDING_PRICING_1_TITLE: '基础版',
   LANDING_PRICING_1_PRICE: '免费',
-  LANDING_PRICING_1_CONTENT: '项目源代码,部署教程,不定时技术答疑',
-  LANDING_PRICING_1_BUTTON: '开始体验',
-  LANDING_PRICING_1_URL: 'https://docs.tangly1024.com/about',
-
-  LANDING_PRICING_2_TITLE: '捐赠版',
+  LANDING_PRICING_1_CONTENT: '适合初试水的企业，提供基本的智能客服和数据分析功能。',
+  LANDING_PRICING_1_BUTTON: '立即注册',
+  LANDING_PRICING_1_URL: '#', // 您可以指定一个具体的URL
+  LANDING_PRICING_2_TITLE: '专业版',
   LANDING_PRICING_2_PRICE: '$9.9/月',
-  LANDING_PRICING_2_CONTENT: '项目源代码,部署教程,长期技术答疑,代码升级合并,内部社群',
+  LANDING_PRICING_2_CONTENT: '增加个性化服务、高级数据分析、以及更多的AI特性支持。',
   LANDING_PRICING_2_BUTTON: '立即购买',
-  LANDING_PRICING_2_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/0adb9153-0799-4f51-91aa-1f06391ea4e0',
-
+  LANDING_PRICING_2_URL: '#', // 您可以指定一个具体的URL
   LANDING_PRICING_3_TITLE: '企业版',
   LANDING_PRICING_3_PRICE: '$59/月',
-  LANDING_PRICING_3_CONTENT: '项目源代码,部署教程,VIP技术咨询,代码升级合并,内部社群,定制功能开发,SEO优化',
+  LANDING_PRICING_3_CONTENT: '包含所有专业版功能，外加VIP技术支持、定制化开发、SEO优化等专属服务。',
   LANDING_PRICING_3_BUTTON: '立即购买',
-  LANDING_PRICING_3_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
-
+  LANDING_PRICING_3_URL: '#', // 您可以指定一个具体的URL
   LANDING_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_LANDING_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
-export default CONFIG
+export default CONFIG;
