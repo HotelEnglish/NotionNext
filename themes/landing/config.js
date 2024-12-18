@@ -1,8 +1,8 @@
 const CONFIG = {
   LANDING_HEADER_BUTTON_1_TITLE: '了解智意达',
-  LANDING_HEADER_BUTTON_1_URL: '#', // 您可以指定一个具体的URL
+  LANDING_HEADER_BUTTON_1_URL: 'https://ai.hotelcases.cn', // 您可以指定一个具体的URL
   LANDING_HEADER_BUTTON_2_TITLE: '联系我们',
-  LANDING_HEADER_BUTTON_2_URL: '#', // 您可以指定一个具体的URL
+  LANDING_HEADER_BUTTON_2_URL: '/about', // 您可以指定一个具体的URL
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: '智意达 | 让一部分酒店人先用上AI',
   LANDING_HERO_P_1: '精选应用：中瑞智能助理、自贸港政策专家、酒店智能助理、收益管理专家。',
@@ -11,7 +11,7 @@ const CONFIG = {
   LANDING_HERO_BUTTON_2_TEXT: '了解更多',
   LANDING_HERO_BUTTON_2_LINK: '#', // 您可以指定一个具体的URL
   LANDING_HERO_VIDEO_IMAGE: '/images/home.png',
-  LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
+  LANDING_HERO_VIDEO_IFRAME: '',
   LANDING_HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
   // 特性介绍
   LANDING_FEATURES_HEADER_1: '智能在线客服',
@@ -75,17 +75,17 @@ const CONFIG = {
   LANDING_PRICING_1_PRICE: '免费',
   LANDING_PRICING_1_CONTENT: '适合初试水的企业，提供基本的智能客服和数据分析功能。',
   LANDING_PRICING_1_BUTTON: '立即注册',
-  LANDING_PRICING_1_URL: '#', // 您可以指定一个具体的URL
+  LANDING_PRICING_1_URL: 'https://ai.hotelcases.cn/', // 您可以指定一个具体的URL
   LANDING_PRICING_2_TITLE: '专业版',
   LANDING_PRICING_2_PRICE: '$9.9/月',
   LANDING_PRICING_2_CONTENT: '增加个性化服务、高级数据分析、以及更多的AI特性支持。',
   LANDING_PRICING_2_BUTTON: '立即购买',
-  LANDING_PRICING_2_URL: '#', // 您可以指定一个具体的URL
+  LANDING_PRICING_2_URL: 'https://ai.hotelcases.cn/', // 您可以指定一个具体的URL
   LANDING_PRICING_3_TITLE: '企业版',
   LANDING_PRICING_3_PRICE: '$59/月',
   LANDING_PRICING_3_CONTENT: '包含所有专业版功能，外加VIP技术支持、定制化开发、SEO优化等专属服务。',
   LANDING_PRICING_3_BUTTON: '立即购买',
-  LANDING_PRICING_3_URL: '#', // 您可以指定一个具体的URL
+  LANDING_PRICING_3_URL: 'https://ai.hotelcases.cn/', // 您可以指定一个具体的URL
   LANDING_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_LANDING_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG;
