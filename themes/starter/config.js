@@ -124,7 +124,7 @@ const CONFIG = {
   STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
   STARTER_FAQ_1_QUESTION: '智意达有帮助文档吗？',
   STARTER_FAQ_1_ANSWER:
-    '智意达提供了<a href="https://ai.hotelcases.cn" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+    '智意达提供了<a href="https://ai.hotelcases.cn" className="underline">帮助文档，操作演示视频，来协助您完成AI的接入',
   // ... (其他FAQ条目)
 
   // 团队成员区块
