@@ -4,7 +4,7 @@ const CONFIG = {
   LANDING_HEADER_BUTTON_2_TITLE: '联系我们',
   LANDING_HEADER_BUTTON_2_URL: '/about', // 您可以指定一个具体的URL
   // 首页大图英雄板块
-  LANDING_HERO_TITLE_1: '智意达 | 让一部分酒店人先用上AI',
+  LANDING_HERO_TITLE_1: '智意达 | 让一部分酒店人先用上 AI',
   LANDING_HERO_P_1: '精选应用：中瑞智能助理、自贸港政策专家、酒店智能助理、收益管理专家。',
   LANDING_HERO_BUTTON_1_TEXT: '开始体验',
   LANDING_HERO_BUTTON_1_LINK: '#', // 您可以指定一个具体的URL
