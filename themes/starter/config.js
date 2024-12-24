@@ -204,7 +204,7 @@ const CONFIG = {
     {
       IMAGE: '/images/starter/brands/tailgrids.svg',
       IMAGE_WHITE: '/images/starter/brands/tailgrids-white.svg',
-      URL: '"https://tailgrids.com/',
+      URL: 'https://tailgrids.com/',
       TITLE: 'tailgrids'
     }
   ],
@@ -228,10 +228,6 @@ const CONFIG = {
   STARTER_POST_REDIRECT_URL: 'https://zsk.begs.cn/chat/share?shareId=ie34m7dyg5em9hktjcb04kqf', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
-
-
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
-
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
