@@ -208,7 +208,45 @@ const CONFIG = {
     }
   ],
   STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
-  // ... (页脚其他项)
+  // 页脚三列菜单组
+  STARTER_FOOTER_LINK_GROUP: [
+    {
+      TITLE: '关于我们',
+      LINK_GROUP: [
+        { TITLE: '官方主页', URL: '/#home' },
+        { TITLE: '操作文档', URL: 'https://doc.hotelcases.cn' },
+        { TITLE: '帮助支持', URL: 'https://help.hotelcases.cn' },
+        { TITLE: '合作申请', URL: 'https://co.hotelcases.cn' }
+      ]
+    },
+    {
+      TITLE: '功能特性',
+      LINK_GROUP: [
+        { TITLE: '智能助理', URL: 'https://zsk.begs.cn/chat/share?shareId=vkxiuc2zhuoxedqecc6ovmwu' },
+        { TITLE: '政策专家', URL: 'https://zsk.begs.cn/chat/share?shareId=ie34m7dyg5em9hktjcb04kqf' },
+        { TITLE: '收益管理', URL: 'https://zsk.begs.cn/chat/share?shareId=augem081tlh7y82lcr8dxxuc' }
+      ]
+    },
+    {
+      TITLE: 'Notion写作',
+      LINK_GROUP: [
+        { TITLE: '客房服务', URL: '#' },
+        { TITLE: '前厅服务', URL: '#' },
+        { TITLE: '餐饮服务', URL: '#' }
+      ]
+    }
+  ],
+
+  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新动态',
+  
+  STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
+  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
+  
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
+  
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
   STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
