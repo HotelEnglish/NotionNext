@@ -3,18 +3,18 @@
  */
 const CONFIG = {
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: '', // 普通logo图片 示例：/images/starter/logo/logo.svg
-  STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
+  STARTER_LOGO: '/images/starter/logo/logo.png', // 普通logo图片 示例：/images/starter/logo/logo.svg
+  STARTER_LOGO_WHITE: '/images/starter/logo/logo-w.png', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
   STARTER_HERO_TITLE_1: '智意达 | 让一部分酒店人先用上 AI', // 英雄区文字
   STARTER_HERO_TITLE_2: '自贸港政策专家|酒店智能助理|收益管理专家', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL: '#', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '了解更多', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: '#', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: '酒店智能助理', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: 'https://zsk.begs.cn/chat/share?shareId=augem081tlh7y82lcr8dxxuc', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '收益管理专家', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://zsk.begs.cn/chat/share?shareId=vkxiuc2zhuoxedqecc6ovmwu', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
   // 英雄区配图，如需隐藏，改为空值即可 ''
   STARTER_HERO_PREVIEW_IMAGE: '/images/home.jpg', // 产品预览图 ，默认读取public目录下图片
@@ -110,21 +110,40 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_TEXT:
         '「智意达 为我们节省了数百小时的工作时间，并让我们获得了从未想到过的洞察力"」。',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
+        'https://unionavatars.com/wp-content/uploads/2024/10/sienna-realistic-avatar-testimonial.webp',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: '安妮-斯坦纳',
       STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '绿色足迹首席执行官',
       STARTER_TESTIMONIALS_ITEM_URL: '#' // 您可以指定一个具体的URL
     },
     // ... (其他用户评价项)
+    {
+      STARTER_TESTIMONIALS_ITEM_TEXT:
+        '「通过接入智意达的AI能力，不仅帮助我们提供收益管理上的数据分析及建议，还解决了大部分岗位员工的工作需求。"」。',
+      STARTER_TESTIMONIALS_ITEM_AVATAR:
+        'https://unionavatars.com/wp-content/uploads/2024/10/realme77-realistic-avatar-testimonial-users.webp',
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Cindy Chen',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'XX酒店HRM',
+      STARTER_TESTIMONIALS_ITEM_URL: '#' // 您可以指定一个具体的URL
+    },    
   ],
   // FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
-  STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
-  STARTER_FAQ_1_QUESTION: '智意达有帮助文档吗？',
+  STARTER_FAQ_TITLE: '酒店常见问题',
+  STARTER_FAQ_TEXT_1: '或许在这里可以找到答案',
+  STARTER_FAQ_TEXT_2: '智意达的核心业务介绍',
+  STARTER_FAQ_1_QUESTION: '智意达的核心业务是什么？',
+  STARTER_FAQ_2_QUESTION: '行业政策那么多，更新那么频繁，我如何把握最新资讯？',
+  STARTER_FAQ_3_QUESTION: '我需要24小时精准回复客户，该怎么做？',
+  STARTER_FAQ_4_QUESTION: '我如何使用AI为酒店赋能？',
   STARTER_FAQ_1_ANSWER:
-    '智意达提供了<a href="https://ai.hotelcases.cn" className="underline">帮助文档，操作演示视频，来协助您完成AI的接入',
+    '智意达 旨在构建一个集成了自然语言处理（NLP）、深度学习（DL）与知识库管理（KBM）的创新平台，为各类企业和个人用户提供全面、智能的服务体验。',
+  STARTER_FAQ_2_ANSWER:
+    '使用智意达 进行国家政策法规解读，利用AI技术为企业提供实时、准确的政策解读，确保企业合规经营。',
+  STARTER_FAQ_3_ANSWER:
+    '使用智意达的人工智能在线客服，利用先进的NLP技术实现与用户的自然对话，为用户提供即时、准确的客户服务；',
+  STARTER_FAQ_4_ANSWER:
+    '使用智意达企业经营数据分析，通过深度学习算法深入分析企业运营数据，洞察业务趋势，为决策制定提供优化建议；',
+  
   // ... (其他FAQ条目)
 
   // 团队成员区块
