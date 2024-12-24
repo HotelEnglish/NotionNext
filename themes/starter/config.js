@@ -170,12 +170,11 @@ const CONFIG = {
   STARTER_CONTACT_LOCATION_TEXT: '中国，海南',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
   STARTER_CONTACT_EMAIL_TEXT: 'admin#begs.cn',
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7'
+  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7',
   // ... (联系模块其他项)
 
   // 合作伙伴的图标
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
-  // ... (合作伙伴项)
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
@@ -219,8 +218,7 @@ const CONFIG = {
   STARTER_CTA_ENABLE: true,
   STARTER_CTA_TITLE: '你还在等待什么呢？',
   STARTER_CTA_TITLE_2: '现在开始吧',
-  STARTER_CTA_DESCRIOTN:
-    '访问智意达的操作文档，我们提供了详细的教程，帮助你即刻搭上 AI 快车！',
+  STARTER_CTA_DESCRIOTN: '访问智意达的操作文档，我们提供了详细的教程，帮助你即刻搭上 AI 快车！',
   STARTER_CTA_BUTTON: true, // 是否显示按钮
   STARTER_CTA_BUTTON_URL: 'https://ai.hotelcases.cn/',
   STARTER_CTA_BUTTON_TEXT: '开始体验',
