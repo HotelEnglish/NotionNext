@@ -8,7 +8,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的自留地', url: 'https://www.begs.cn' },
+    { title: '欢迎来到我的自留地', url: 'https://www.miro.cx' },
     { title: '去酒店英语小酌一杯', url: 'https://www.hotelenglish.cn' }
   ],
 
@@ -53,7 +53,7 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://github.com/hotelenglish',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.begs.cn',
+  HEO_INFO_CARD_URL3: 'https://www.miro.cx',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
@@ -120,7 +120,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '与我联系',
   HEO_SOCIAL_CARD_TITLE_2: '和龚老师分享',
   HEO_SOCIAL_CARD_TITLE_3: '与我联系',
-  HEO_SOCIAL_CARD_URL: 'https://www.begs.cn/about',
+  HEO_SOCIAL_CARD_URL: 'https://www.miro.cx/about',
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
