@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的自留地', url: 'https://www.miro.cx' },
-    { title: '去酒店英语小酌一杯', url: 'https://www.hotelenglish.cn' }
+    { title: '欢迎造访酒店英语', url: 'https://www.hotelenglish.cn' },
+    { title: '去网络龚略小酌一杯', url: 'https://www.miro.cx' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,19 +18,19 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享犁地工具',
-  HEO_HERO_TITLE_2: '与缝纫机配件',
-  HEO_HERO_TITLE_3: '网络龚略',
+  HEO_HERO_TITLE_1: '助力酒店管理',
+  HEO_HERO_TITLE_2: '提升英语能力',
+  HEO_HERO_TITLE_3: '酒店英语',
   HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: '力求分享更实用的工具和技术',
-  HEO_HERO_TITLE_LINK: 'https://www.begs.cn',
+  HEO_HERO_TITLE_5: '分享工作经验，吐槽牛马日常',
+  HEO_HERO_TITLE_LINK: 'https://www.hotelenglish.cn',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/酒店' },
+  HEO_HERO_CATEGORY_3: { title: '猜你喜欢', url: '/tag/猜你喜欢' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '',
@@ -53,7 +53,7 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://github.com/hotelenglish',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.miro.cx',
+  HEO_INFO_CARD_URL3: 'https://www.hotelenglish.cn',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
@@ -117,10 +117,10 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '与我联系',
+  HEO_SOCIAL_CARD_TITLE_1: '与龚老师联系',
   HEO_SOCIAL_CARD_TITLE_2: '和龚老师分享',
-  HEO_SOCIAL_CARD_TITLE_3: '与我联系',
-  HEO_SOCIAL_CARD_URL: 'https://www.miro.cx/about',
+  HEO_SOCIAL_CARD_TITLE_3: '说给龚老师听听',
+  HEO_SOCIAL_CARD_URL: 'https://www.hotelenglish.cn/about',
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
