@@ -18,12 +18,12 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享犁地工具',
-  HEO_HERO_TITLE_2: '与缝纫机配件',
+  HEO_HERO_TITLE_1: '教学资讯与资源',
+  HEO_HERO_TITLE_2: '实用工具与软件',
   HEO_HERO_TITLE_3: '网络龚略',
   HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: '力求分享更实用的工具和技术',
-  HEO_HERO_TITLE_LINK: 'https://www.begs.cn',
+  HEO_HERO_TITLE_LINK: 'https://www.miro.cx',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
